@@ -1,0 +1,22 @@
+.MainBox {
+    border: 1px solid black;
+    border-radius: 15px;
+    background-color: aliceblue;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    width: fit-content;
+    height: max-content;
+    margin-left: 12px;
+    margin-right: 12px;
+}
+
+#MainBox-illustration {
+    width: 100%;
+    border-radius: 15px 15px 0px 0px;
+}
+
+#MainBox-content {
+    padding: 10px;
+    max-height: 200px;
+    overflow-y: scroll;
+    scrollbar-width: auto;
+}
